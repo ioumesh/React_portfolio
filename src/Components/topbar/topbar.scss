@@ -1,0 +1,26 @@
+@import "../../global.scss";
+.topbar_bg{
+width:100%;
+height:70px;
+background-color:$pure;
+color:$maincolor;
+position:fixed;
+top:0;
+z-index:2;
+}
+
+.wrapper{
+    padding:10px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    .left{
+        .logo{
+            font-size:40px;
+            font-weight:700;
+            text-decoration:none;
+            color:inherit;
+        }
+    }
+}
